@@ -37,6 +37,7 @@
     list-style-type:none;
 }
 #Hero-section{
+    width: 100%;
     max-width: 1600px;
     height: 674px;
     background-image: url("../assets/hero-bg.png");
@@ -109,4 +110,67 @@
     display: inline-flex;
     align-items: center;
     cursor: pointer;
+}
+#Main-layer-1{
+    width: 100%;
+    max-width: 1600px;
+    height: 28%;
+    max-height: 448px;
+    margin: 0px auto;
+}
+.Layer-text{
+    max-width: 1360px;
+    margin: 0px 120px 44px 120px;
+    padding: 0px;
+    text-align: center;
+}
+.Layer-text .Layer-heading{
+    margin: 48px auto 16px auto;
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+}
+.Layer-text .Layer-paragraph{
+    margin: 0px auto;
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+}
+.Layer-flexbox{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    max-width: 1360px;
+    margin: 0px auto;
+}
+.Layer-flexbox .flex-item{
+    width: 322px;
+    height: 300px;
+    margin: 0px 0px -48px 0px;
+    padding: 24px;
+    text-align: center;
+    border: none;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.06);
+}
+.Layer-flexbox .flex-item .Flex-image{
+    width: 32px;
+    height: 32px;
+    color: #FFFFFF;
+    background-color: #f95555;
+    border: none;
+    border-radius: 50%;
+    padding: 13.5px;
+    margin-top: 45.5px;
+}
+.Layer-flexbox .flex-item .Flex-Heading{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    white-space: pre-line;
+    
+}
+.Layer-flexbox .flex-item .Flex-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
 }
