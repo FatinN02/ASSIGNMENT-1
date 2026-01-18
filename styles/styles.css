@@ -270,21 +270,21 @@
     max-width: 1600px;
     background-color: #001931;
     margin: 0px auto;
-    padding: 120px 120px 30px 120px;
+    padding: 120px 0px 30px 0px;
 }
 #footer-content .logo-links{
-    width: 1360px;
+    max-width: 1360px;
     margin: 0px auto;
     padding: 0px;
     display: flex;
     justify-content: space-between;
 }
-footer .logo-links .social-links{
+#footer-content .logo-links .social-links{
     margin: 0px;
     padding-right: 107px;
     text-align: left;
 }
-footer .logo-links .social-links h4{
+#footer-content .logo-links .social-links h4{
     font-size: 20px;
     font-weight: 500;
     line-height: 28px;
@@ -292,25 +292,25 @@ footer .logo-links .social-links h4{
     padding: 0px;
     color: #FFFFFF;
 }
-footer .logo-links .social-links .Links-handle{
+#footer-content .logo-links .social-links .Links-handle{
     list-style: none;
     display: flex;
     justify-content: space-between;
     margin: 0px;
     padding: 0px;
 }
-footer .reminder{
-    width: 1360px;
+#footer-content .reminder{
+    max-width: 1360px;
     margin: 80px auto 0px auto;
     padding: 0px;
 }
-footer .reminder hr{
+#footer-content .reminder hr{
     height: 2px;
     border: none;
     background-color: #e5e7eb;
     margin-bottom: 30px;
 }
-footer .reminder p{
+#footer-content .reminder p{
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
