@@ -21,12 +21,13 @@
 #Nav-bar{
     width: 100%;
     max-width: 1600px;
-    height: auto;
+    height: 5.75%;
+    max-height: 92px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: auto;
     margin: auto;
+    padding: 16px 120px;
 }
 #Nav-bar .Nav-info{
     font-size: 16px;
@@ -150,6 +151,7 @@
     padding: 24px;
     text-align: center;
     border: none;
+    border-radius: 8px;
     box-shadow: 0 0 8px 0 rgba(0,0,0,0.06);
 }
 .Layer-flexbox .flex-item .Flex-image{
@@ -165,12 +167,111 @@
 .Layer-flexbox .flex-item .Flex-Heading{
     font-size: 24px;
     font-weight: 600;
-    color: #001931;
-    white-space: pre-line;
-    
+    color: #001931;   
 }
 .Layer-flexbox .flex-item .Flex-text{
     font-size: 16px;
     font-weight: 400;
     color: #627382;
+}
+#Main-layer-2{
+    width: 100%;
+    max-width: 1600px;
+    height: 52.5%;
+    max-height: 840px;
+    margin: 0px auto;
+    background-color: #FFFFFF;
+}
+.Layer-elements{
+    max-width: 1360px;
+    max-height: 600px;
+    margin: 120px;
+    padding: 0px;
+    display: flex;
+    gap: 60px;
+}
+.Layer-elements img{
+    border: none;
+    border-radius: 12px;
+}
+.Layer-text-elements{
+    max-width: 700px;
+    max-height: 397px;
+    margin: 101.5px 0px;
+    padding: 0px;
+    text-align: left;
+}
+.Layer-text-elements .p1{
+    font-size: 16px;
+    font-weight: 500;
+    color: #30B868;
+}
+.Layer-text-elements h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+}
+.Layer-text-elements .p2{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+}
+.Layer-text-elements .Layer-list{
+    margin-top: 40px;
+}
+.Layer-text-elements ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.Layer-text-elements ul li{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.Layer-text-elements ul li:last-child{
+    margin-bottom: 0px;
+}
+#Main-layer-3{
+    width: 100%;
+    max-width: 1600px;
+    height: auto;
+    margin: 0px auto;
+    border: 1px solid saddlebrown;
+}
+.layer-content{
+    background-color: #f7f6f2;
+    margin: 0px 120px 120px 120px;
+    padding: 80px 40px;
+    border: none;
+    border-radius: 12px;
+    text-align: center;
+}
+.layer-content .layer-content-text h1{
+    margin: 0px 0px 16px 0px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    border: 1px solid black;
+}
+.layer-content .layer-content-text p{
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #627382;
+    border: 1px solid blue;
+}
+.layer-content .layer-content-button{
+    margin-top: 24px;
+}
+.layer-content .layer-content-button .Button{
+    margin: 0px auto;
+}
+.layer-content .layer-content-button p{
+    margin: 16px 0px 0px 0px;
 }
