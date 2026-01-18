@@ -24,8 +24,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: auto;
-    padding: 16px 120px;
+    margin: 16px auto;
+    padding: 16px auto;
 }
 #Nav-bar .Nav-info{
     font-size: 16px;
@@ -275,7 +275,7 @@
 #footer-content .logo-links{
     max-width: 1360px;
     margin: 0px auto;
-    padding: 0px;
+    padding: 0px auto;
     display: flex;
     justify-content: space-between;
 }
@@ -288,7 +288,6 @@
     font-size: 20px;
     font-weight: 500;
     line-height: 28px;
-    margin: 0px 0px 16px 0px;
     padding: 0px;
     color: #FFFFFF;
 }
